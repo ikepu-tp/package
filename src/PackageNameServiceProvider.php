@@ -67,7 +67,7 @@ class PackageNameServiceProvider extends ServiceProvider
     }
 
     /**
-     * Define the Sanctum routes.
+     * Define the routes.
      *
      * @return void
      */
