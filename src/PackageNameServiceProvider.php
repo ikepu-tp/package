@@ -3,6 +3,8 @@
 namespace ikepu_tp\PackageName;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Pagination\Paginator;
+use Illuminate\Support\Facades\Blade;
 
 class PackageNameServiceProvider extends ServiceProvider
 {
@@ -23,6 +25,8 @@ class PackageNameServiceProvider extends ServiceProvider
         $this->defineRoutes();
         $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
         $this->loadViewsFrom(__DIR__ . "/resources/views", "PackageName");
+        Paginator::useBootstrap();
+        Blade::componentNamespace("ikepu_tp\\resources\\views\\components", "PackageName");
     }
 
     /**
