@@ -8,10 +8,11 @@ This is a template for Laravel Package. Please copy this repository and edit.
 
 ## Contributing
 
-Thank you for your contributions. If you find bugs, let me know them with issues.
+We welcome contributions to the project! You can get involved through the following ways:
+
+Issue: Use for bug reports, feature suggestions, and more. 
+Pull Requests: We encourage code contributions for new features and bug fixes.
 
 ## License
 
-Copyright (c) 2023 Yuma Ikeda.
-
-This is open-sourced software licensed under the [MIT license](LICENSE).
+See [LICENSE](./LICENSE).
